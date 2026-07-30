@@ -527,3 +527,117 @@ Title
 }
 
 }
+
+/*=============================
+    FEATURED PRODUCTS
+=============================*/
+
+.products-section{
+    padding:70px 0;
+    background:#f8f9fa;
+}
+
+.product-card{
+    background:#fff;
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    transition:.3s;
+    height:100%;
+}
+
+.product-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+}
+
+.product-card img{
+    width:100%;
+    height:240px;
+    object-fit:cover;
+    transition:.4s;
+}
+
+.product-card:hover img{
+    transform:scale(1.05);
+}
+
+.product-content{
+    padding:25px;
+}
+
+.product-content h4{
+    color:#166b2f;
+    font-weight:700;
+    margin-bottom:12px;
+}
+
+.product-content p{
+    color:#666;
+    font-size:15px;
+    margin-bottom:20px;
+    min-height:55px;
+}
+
+.product-content .btn{
+    border-radius:30px;
+    padding:10px 24px;
+}
+
+/*=============================
+      BRANDS SECTION
+=============================*/
+/*=============================
+      AUTHORIZED BRANDS
+=============================*/
+
+.brands-section{
+    padding:70px 0;
+    background:#f8f9fa;
+}
+
+.brand-card{
+    background:#fff;
+    border-radius:15px;
+    border:1px solid #e8e8e8;
+    padding:15px;
+    height:140px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    transition:.3s;
+    box-shadow:0 5px 15px rgba(0,0,0,.06);
+}
+
+.brand-card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 12px 25px rgba(0,0,0,.12);
+}
+
+.brand-card img{
+    width:70%;
+    max-width:100%;
+    max-height:90px;
+    object-fit:contain;
+    transition:.3s;
+}
+
+.brand-card:hover img{
+    transform:scale(1.08);
+}
+
+/* Mobile */
+
+@media (max-width:768px){
+
+.brand-card{
+    height:110px;
+    padding:10px;
+}
+
+.brand-card img{
+    width:130px;
+    max-height:70px;
+}
+
+}

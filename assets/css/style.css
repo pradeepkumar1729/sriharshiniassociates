@@ -348,9 +348,13 @@ Title
 }
 
 .hero-title{
+    font-size:58px;
+    font-weight:700;
+}
 
-    font-size:2.2rem;
-
+.hero-text{
+    font-size:20px;
+    line-height:1.8;
 }
 
 .hero-subtitle{
@@ -380,10 +384,11 @@ Title
 }
 /* ================= WHY US ================= */
 
-.why-us{
-    background:#f8faf8;
-}
 
+.why-us{
+    padding-top:50px !important;
+    padding-bottom:80px;
+}
 .section-tag{
     background:#1B5E20;
     color:#fff;
@@ -411,7 +416,7 @@ Title
 
 .why-card{
     background:#fff;
-    padding:35px 25px;
+    padding:10px 5px;
     border-radius:18px;
     text-align:center;
     transition:.35s;
@@ -422,20 +427,117 @@ Title
 .why-card:hover{
     transform:translateY(-10px);
     box-shadow:0 18px 40px rgba(0,0,0,.15);
+    border-top:4px solid #F57C00;
 }
 
 .why-card .icon{
-    font-size:50px;
-    margin-bottom:20px;
+    font-size:55px;
+    color:#1B5E20;
+    margin-bottom:12px;
+    transition:.3s;
 }
 
 .why-card h4{
     font-weight:700;
-    margin-bottom:15px;
+    margin-bottom:10px;
     color:#1B5E20;
 }
 
 .why-card p{
     color:#666;
-    line-height:1.7;
+    line-height:1.5;
+    font-size:17px;
+}
+
+/*=========================
+      Statistics Section
+=========================*/
+/*==========================
+      Achievements
+===========================*/
+/*=============================
+      ACHIEVEMENTS SECTION
+=============================*/
+
+.stats-section{
+    background:#166b2f;
+    padding:50px 0 40px;
+    color:#fff;
+}
+
+.stats-section .section-tag{
+    display:inline-block;
+    background:#2c7a3f;
+    color:#fff;
+    padding:6px 18px;
+    border-radius:30px;
+    font-size:14px;
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+.stats-section .section-title{
+    color:#fff;
+    font-size:48px;
+    font-weight:700;
+    line-height:1.2;
+    margin-bottom:15px;
+}
+
+.stats-section .section-subtitle{
+    color:#d8ead9;
+    font-size:18px;
+    max-width:700px;
+    margin:0 auto 35px;
+    line-height:1.6;
+}
+
+.stat-box{
+    padding:10px 5px;
+}
+
+.stat-box h2{
+    color:#ff9800;
+    font-size:52px;
+    font-weight:700;
+    margin-bottom:5px;
+    line-height:1;
+}
+
+.stat-box p{
+    color:#fff;
+    font-size:20px;
+    margin:0;
+    font-weight:500;
+}
+
+/* Mobile */
+
+@media (max-width:768px){
+
+.stats-section{
+    padding:40px 0;
+}
+
+.stats-section .section-title{
+    font-size:32px;
+}
+
+.stats-section .section-subtitle{
+    font-size:16px;
+    margin-bottom:25px;
+}
+
+.stat-box{
+    padding:15px 0;
+}
+
+.stat-box h2{
+    font-size:36px;
+}
+
+.stat-box p{
+    font-size:16px;
+}
+
 }

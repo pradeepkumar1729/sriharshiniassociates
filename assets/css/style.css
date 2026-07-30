@@ -467,30 +467,33 @@ Title
 }
 
 .stats-section .section-title{
-    font-size:20px;
+    font-size:16px;
     font-weight:700;
     margin:5px 0;
     line-height:1.2;
 }
 
 .stats-section .section-subtitle{
-    font-size:10px;
+    font-size:12px;
     max-width:700px;
     margin:0 auto 5px;
     line-height:1.5;
 }
 
 .stat-box{
+    
     padding:5px;
 }
 
-.stat-box h2{
-    font-size:48px;
+.stat-box h4{
+    color: #ff9800;
+    font-size:28px;
     margin-bottom:4px;
     line-height:1;
 }
 
 .stat-box p{
+    
     font-size:12px;
     margin:0;
 }
@@ -515,7 +518,7 @@ Title
     padding:5px 0;
 }
 
-.stat-box h2{
+.stat-box h4{
     font-size:36px;
 }
 

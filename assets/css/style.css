@@ -452,84 +452,67 @@ Title
 /*=========================
       Statistics Section
 =========================*/
-/*==========================
-      Achievements
-===========================*/
-/*=============================
-      ACHIEVEMENTS SECTION
-=============================*/
-
 .stats-section{
     background:#166b2f;
-    padding:50px 0 40px;
+    padding:5px 0;
     color:#fff;
 }
 
 .stats-section .section-tag{
     display:inline-block;
     background:#2c7a3f;
-    color:#fff;
     padding:6px 18px;
-    border-radius:30px;
-    font-size:14px;
-    font-weight:600;
-    margin-bottom:15px;
+    border-radius:10px;
+    margin-bottom:5px;
 }
 
 .stats-section .section-title{
-    color:#fff;
-    font-size:48px;
+    font-size:20px;
     font-weight:700;
+    margin:5px 0;
     line-height:1.2;
-    margin-bottom:15px;
 }
 
 .stats-section .section-subtitle{
-    color:#d8ead9;
-    font-size:18px;
+    font-size:10px;
     max-width:700px;
-    margin:0 auto 35px;
-    line-height:1.6;
+    margin:0 auto 5px;
+    line-height:1.5;
 }
 
 .stat-box{
-    padding:10px 5px;
+    padding:5px;
 }
 
 .stat-box h2{
-    color:#ff9800;
-    font-size:52px;
-    font-weight:700;
-    margin-bottom:5px;
+    font-size:48px;
+    margin-bottom:4px;
     line-height:1;
 }
 
 .stat-box p{
-    color:#fff;
-    font-size:20px;
+    font-size:12px;
     margin:0;
-    font-weight:500;
 }
-
 /* Mobile */
 
 @media (max-width:768px){
 
 .stats-section{
-    padding:40px 0;
+    padding:10px 0;
 }
 
 .stats-section .section-title{
-    font-size:32px;
+    font-size:22px;
 }
 
 .stats-section .section-subtitle{
     font-size:16px;
-    margin-bottom:25px;
+    margin-bottom:5px;
 }
 
 .stat-box{
-    padding:15px 0;
+    padding:5px 0;
 }
 
 .stat-box h2{

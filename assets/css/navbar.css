@@ -1,0 +1,147 @@
+
+/* ==========================
+   NAVBAR
+========================== */
+
+.navbar{
+    background:#ffffff;
+    padding:14px 0;
+}
+
+.logo{
+    width:110px;
+    height:auto;
+}
+
+.company-name{
+
+    font-size:2rem;
+    font-weight:700;
+    color:#1B5E20;
+    margin:0;
+
+}
+
+.company-tagline{
+
+    font-size:0.95rem;
+    color:#555;
+    margin:2px 0 0;
+
+}
+
+/* ==========================
+   MENU
+========================== */
+
+.navbar-nav{
+
+    margin-left:auto;
+
+}
+
+.nav-link{
+
+    position:relative;
+    color:#222 !important;
+    font-size:1.05rem;
+    font-weight:600;
+    margin-left:18px;
+    transition:.3s;
+
+}
+
+.nav-link:hover{
+
+    color:#1B5E20 !important;
+
+}
+
+.nav-link::after{
+
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:-6px;
+    width:0;
+    height:3px;
+    background:#F57C00;
+    transition:.3s;
+
+}
+
+.nav-link:hover::after,
+.nav-link.active::after{
+
+    width:100%;
+
+}
+
+.nav-link.active{
+
+    color:#1B5E20 !important;
+
+}
+
+/* ==========================
+   CALL BUTTON
+========================== */
+
+.call-btn{
+
+    background:#F57C00;
+    color:white;
+    font-weight:600;
+    border-radius:8px;
+    padding:10px 22px;
+    border:none;
+    transition:.3s;
+
+}
+
+.call-btn:hover{
+
+    background:#E65100;
+    color:white;
+
+}
+
+/* ==========================
+   RESPONSIVE
+========================== */
+
+@media(max-width:991px){
+
+.logo{
+
+    width:85px;
+
+}
+
+.company-name{
+
+    font-size:1.4rem;
+
+}
+
+.company-tagline{
+
+    font-size:.8rem;
+
+}
+
+.nav-link{
+
+    margin-left:0;
+    margin-top:10px;
+
+}
+
+.call-btn{
+
+    width:100%;
+    margin-top:15px;
+
+}
+
+}

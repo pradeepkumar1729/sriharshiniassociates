@@ -1,0 +1,56 @@
+/*=============================
+    FEATURED PRODUCTS
+=============================*/
+
+.products-section{
+    padding:70px 0;
+    background:#f8f9fa;
+}
+
+.product-card{
+    background:#fff;
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    transition:.3s;
+    height:100%;
+}
+
+.product-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+}
+
+.product-card img{
+    width:100%;
+    height:240px;
+    object-fit:cover;
+    transition:.4s;
+}
+
+.product-card:hover img{
+    transform:scale(1.05);
+}
+
+.product-content{
+    padding:25px;
+}
+
+.product-content h4{
+    color:#166b2f;
+    font-weight:700;
+    margin-bottom:12px;
+}
+
+.product-content p{
+    color:#666;
+    font-size:15px;
+    margin-bottom:20px;
+    min-height:55px;
+}
+
+.product-content .btn{
+    border-radius:30px;
+    padding:10px 24px;
+}
+

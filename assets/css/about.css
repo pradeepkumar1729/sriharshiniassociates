@@ -1,7 +1,36 @@
 /*=================================
         ABOUT SECTION
 ==================================*/
+/*==================================
+    ABOUT FEATURES
+==================================*/
+.highlight-text{
+    color:var(--secondary);
+}
+.about-feature{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    font-weight:600;
+    color:#333;
+}
 
+.about-feature i{
+    width:42px;
+    height:42px;
+    background:var(--primary);
+    color:#fff;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:18px;
+    flex-shrink:0;
+}
+
+.about-feature span{
+    font-size:16px;
+}
 .about-section{
     background:#ffffff;
     padding:80px 0;
@@ -48,4 +77,227 @@
 
 }
 
+/*==================================
+      MISSION & VISION
+==================================*/
 
+.mission-section{
+
+    padding:80px 0;
+
+    background:#f8f9fa;
+
+}
+
+.mission-card{
+
+    background:#fff;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    border-top:6px solid var(--secondary);
+
+    box-shadow:var(--shadow);
+
+    height:100%;
+
+    transition:.35s;
+
+}
+
+.mission-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.mission-icon{
+
+    width:70px;
+
+    height:70px;
+
+    background:var(--primary);
+
+    color:#fff;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:32px;
+
+    margin-bottom:25px;
+
+}
+
+.mission-card h3{
+
+    font-size:28px;
+
+    font-weight:700;
+
+    margin-bottom:20px;
+
+}
+
+.mission-card p{
+
+    color:#666;
+
+    line-height:1.8;
+
+}
+
+/*==================================
+        OUR JOURNEY
+==================================*/
+
+.timeline-section{
+    padding:80px 0;
+    background:#ffffff;
+}
+
+.timeline{
+    position:relative;
+    margin-top:40px;
+}
+
+.timeline::before{
+    content:"";
+    position:absolute;
+    left:70px;
+    top:0;
+    bottom:0;
+    width:4px;
+    background:var(--primary);
+}
+
+.timeline-item{
+    display:flex;
+    margin-bottom:45px;
+    position:relative;
+}
+
+.timeline-year{
+    width:90px;
+    height:90px;
+    background:var(--primary);
+    color:#fff;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:22px;
+    font-weight:700;
+    z-index:2;
+    flex-shrink:0;
+}
+
+.timeline-content{
+    background:#fff;
+    margin-left:30px;
+    padding:25px;
+    border-radius:18px;
+    box-shadow:var(--shadow);
+    flex:1;
+}
+
+.timeline-content h4{
+    font-weight:700;
+    color:var(--primary);
+    margin-bottom:12px;
+}
+
+.timeline-content p{
+    margin:0;
+    color:#666;
+    line-height:1.8;
+}
+
+@media(max-width:768px){
+
+.timeline::before{
+    display:none;
+}
+
+.timeline-item{
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+}
+
+.timeline-content{
+    margin-left:0;
+    margin-top:20px;
+}
+
+}
+
+/*==================================
+      WHY CHOOSE ABOUT
+==================================*/
+
+.why-about-section{
+
+    padding:80px 0;
+
+    background:#f8f9fa;
+
+}
+
+.why-card{
+
+    background:#fff;
+
+    border-radius:18px;
+
+    padding:35px 25px;
+
+    text-align:center;
+
+    box-shadow:var(--shadow);
+
+    transition:.35s;
+
+    height:100%;
+
+}
+
+.why-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.why-card i{
+
+    font-size:42px;
+
+    color:var(--primary);
+
+    margin-bottom:20px;
+
+}
+
+.why-card h4{
+
+    font-weight:700;
+
+    margin-bottom:15px;
+
+}
+
+.why-card p{
+
+    color:#666;
+
+    line-height:1.7;
+
+}

@@ -1,58 +1,99 @@
-/*=============================
-      BRANDS SECTION
-=============================*/
-/*=============================
-      AUTHORIZED BRANDS
-=============================*/
-
-.brands-section{
-    padding:70px 0;
-    background:#f8f9fa;
-}
+/*==================================
+        FINAL BRAND CARD
+==================================*/
 
 .brand-card{
+
     background:#fff;
-    border-radius:15px;
-    border:1px solid #e8e8e8;
-    padding:15px;
-    height:140px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
+
+    border-radius:18px;
+
+    padding:10px 5px;
+
+    text-align:center;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+
     transition:.3s;
-    box-shadow:0 5px 15px rgba(0,0,0,.06);
+
+    height:85%;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
 }
 
 .brand-card:hover{
-    transform:translateY(-6px);
-    box-shadow:0 12px 25px rgba(0,0,0,.12);
+
+    transform:translateY(-10px);
+
+    box-shadow:0 20px 35px rgba(0,0,0,.12);
+
 }
 
 .brand-card img{
-    width:70%;
-    max-width:100%;
-    max-height:90px;
+
+    width:160px;
+
+    height:90px;
+
     object-fit:contain;
-    transition:.3s;
-}
 
-.brand-card:hover img{
-    transform:scale(1.08);
-}
-
-/* Mobile */
-
-@media (max-width:768px){
-
-.brand-card{
-    height:110px;
-    padding:10px;
-}
-
-.brand-card img{
-    width:130px;
-    max-height:70px;
-}
+    margin-bottom:15px;
 
 }
 
+.brand-card h4{
+
+    font-size:24px;
+
+    color:#1B5E20;
+
+    font-weight:700;
+
+    margin-bottom:10px;
+
+}
+
+.brand-products{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+    gap:8px;
+
+    margin-bottom:15px;
+
+}
+
+.brand-products span{
+
+    background:#E8F5E9;
+
+    color:#1B5E20;
+
+    padding:20px 20px;
+
+    border-radius:20px;
+
+    font-size:13px;
+
+    font-weight:600;
+
+}
+
+.brand-card .btn{
+
+    margin-top:auto;
+
+    border-radius:30px;
+
+    padding:10px 14px;
+
+}

@@ -1,0 +1,29 @@
+@media(max-width:991px){
+
+.logo{
+
+    width:55px;
+
+}
+
+.company-name{
+
+    font-size:16px;
+
+}
+
+.company-tagline{
+
+    font-size:11px;
+
+}
+
+.call-btn{
+
+    width:100%;
+
+    margin-top:15px;
+
+}
+
+}

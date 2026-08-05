@@ -1,147 +1,115 @@
-
-/* ==========================
-   NAVBAR
-========================== */
+/*==================================
+        FINAL NAVBAR
+==================================*/
 
 .navbar{
+
     background:#ffffff;
-    padding:14px 0;
+
+    padding:12px 0;
+
+    box-shadow:0 3px 15px rgba(0,0,0,.08);
+
+}
+
+.navbar-brand{
+
+    display:flex;
+
+    align-items:center;
+
 }
 
 .logo{
-    width:110px;
+
+    width:70px;
+
     height:auto;
+
+    margin-right:15px;
+
 }
 
 .company-name{
 
-    font-size:2rem;
+    font-size:18px;
+
     font-weight:700;
+
     color:#1B5E20;
+
     margin:0;
+
+    line-height:1.2;
 
 }
 
 .company-tagline{
 
-    font-size:0.95rem;
-    color:#555;
+    font-size:13px;
+
+    color:#666;
+
     margin:2px 0 0;
 
 }
 
-/* ==========================
-   MENU
-========================== */
-
 .navbar-nav{
 
-    margin-left:auto;
+    gap:10px;
 
 }
 
-.nav-link{
+.navbar-nav .nav-link{
 
-    position:relative;
-    color:#222 !important;
-    font-size:1.05rem;
+    color:#333;
+
     font-weight:600;
-    margin-left:18px;
+
+    padding:10px 16px;
+
     transition:.3s;
 
-}
-
-.nav-link:hover{
-
-    color:#1B5E20 !important;
+    border-radius:8px;
 
 }
 
-.nav-link::after{
+.navbar-nav .nav-link:hover{
 
-    content:"";
-    position:absolute;
-    left:0;
-    bottom:-6px;
-    width:0;
-    height:3px;
-    background:#F57C00;
-    transition:.3s;
+    color:#1B5E20;
+
+    background:#E8F5E9;
 
 }
 
-.nav-link:hover::after,
-.nav-link.active::after{
+.navbar-nav .nav-link.active{
 
-    width:100%;
+    color:#1B5E20;
 
-}
-
-.nav-link.active{
-
-    color:#1B5E20 !important;
+    background:#E8F5E9;
 
 }
-
-/* ==========================
-   CALL BUTTON
-========================== */
 
 .call-btn{
 
     background:#F57C00;
-    color:white;
-    font-weight:600;
-    border-radius:8px;
+
+    color:#fff;
+
+    border-radius:10px;
+
     padding:10px 22px;
+
+    font-weight:600;
+
     border:none;
-    transition:.3s;
 
 }
 
 .call-btn:hover{
 
-    background:#E65100;
-    color:white;
+    background:#E56A00;
 
-}
-
-/* ==========================
-   RESPONSIVE
-========================== */
-
-@media(max-width:991px){
-
-.logo{
-
-    width:85px;
-
-}
-
-.company-name{
-
-    font-size:1.4rem;
-
-}
-
-.company-tagline{
-
-    font-size:.8rem;
-
-}
-
-.nav-link{
-
-    margin-left:0;
-    margin-top:10px;
-
-}
-
-.call-btn{
-
-    width:100%;
-    margin-top:15px;
-
-}
+    color:#fff;
 
 }
